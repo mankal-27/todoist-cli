@@ -44,6 +44,7 @@ function closeTask(){
       Authorization: `Bearer ${TOKEN}`,
     },
   })
+  console.log("Task closed")
 }
 
 function deleteTask(){
@@ -53,6 +54,7 @@ function deleteTask(){
       Authorization: `Bearer ${TOKEN}`,
     },
   })
+  console.log("Task Deleted")
 }
 
 //createTask()
